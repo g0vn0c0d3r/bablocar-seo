@@ -1,0 +1,12 @@
+.DS_Store
+
+# Raw data and heavy files
+*.xlsx
+*.xls
+*.pdf
+*.zip
+*.csv
+
+# Future generated/export folders
+data/raw/
+exports/
