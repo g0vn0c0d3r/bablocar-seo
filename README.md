@@ -35,10 +35,10 @@ README нужен как короткий навигатор по проекту
 
 | Этап | Статус | Результат / артефакт |
 | --- | --- | --- |
-| 1. Продуктовая база | Готово | [product/product_brief.md](product/product_brief.md), [product/bablocar_product_description.md](product/bablocar_product_description.md) |
-| 2. Партнеры / ограничения / безопасные формулировки | Готово | [partners/partner_conditions.md](partners/partner_conditions.md), [partners/safe_claims.md](partners/safe_claims.md) |
-| 3. Конкуренты и рынок | Готово | [competitors/analysis_plan.md](competitors/analysis_plan.md), [competitors/technical_sitemap_audit.md](competitors/technical_sitemap_audit.md), [competitors/audits/](competitors/audits/), [competitors/findings.md](competitors/findings.md) |
-| 4. Предварительная SEO-гипотеза | Готово, черновик | [seo_hypothesis/preliminary_seo_hypothesis_draft.md](seo_hypothesis/preliminary_seo_hypothesis_draft.md) |
+| 1. Продуктовая база | Готово | `product/product_brief.md`, `product/bablocar_product_description.md` |
+| 2. Партнеры / ограничения / безопасные формулировки | Готово | `partners/partner_conditions.md`, `partners/safe_claims.md` |
+| 3. Конкуренты и рынок | Готово | `competitors/analysis_plan.md`, `competitors/technical_sitemap_audit.md`, `competitors/audits/`, `competitors/findings.md` |
+| 4. Предварительная SEO-гипотеза | Готово, черновик | `seo_hypothesis/preliminary_seo_hypothesis_draft.md` |
 | 5. Сбор семантики | Готово как локальный рабочий массив | `semantic/raw_csv/`, `semantic/combined_raw.csv` |
 | 6. Обработка семантики | Готово как очищенная база | `semantic/clean_semantic.csv`, `semantic/strict_trash.csv`, `semantic/semantic_review.xlsx` |
 | 7. SEO-стратегия | Следующий этап | Нужно собрать финальную стратегию и матрицу страниц |
@@ -47,7 +47,7 @@ README нужен как короткий навигатор по проекту
 | 10. ТЗ на страницы | Не начато | Будет после шаблонов |
 | 11. Производство и запуск | Не начато | Будет после ТЗ и контроля качества |
 
-Полная дорожная карта: [roadmap.md](roadmap.md).
+Полная дорожная карта: `roadmap.md`.
 
 ## Что уже решено
 
@@ -82,7 +82,7 @@ README нужен как короткий навигатор по проекту
 - Безопасная рамка: подбор условий, онлайн-заявка, предварительное решение, предварительный расчет.
 - Не использовать как обещания: `100% одобрение`, `без отказа`, `одобрим всем`, `деньги за 15/30 минут`, `без документов`, `без проверки`, `ставка для всех`, `авто всегда остается у вас`.
 - Тезис `автомобиль остается у клиента` важен, но формулируется как логика подбора и раскрывается с уточнением про условия партнера.
-- `risky`-интенты можно собирать SEO-страницами, но текст должен проходить [partners/safe_claims.md](partners/safe_claims.md).
+- `risky`-интенты можно собирать SEO-страницами, но текст должен проходить `partners/safe_claims.md`.
 
 ## Стратегия на верхнем уровне
 
@@ -232,31 +232,31 @@ x полезные инструменты
 
 ### Главные документы
 
-- [roadmap.md](roadmap.md) — дорожная карта проекта.
-- [product/product_brief.md](product/product_brief.md) — продуктовая база Bablocar.
-- [partners/safe_claims.md](partners/safe_claims.md) — безопасные формулировки.
-- [partners/partner_conditions.md](partners/partner_conditions.md) — агрегированные условия партнеров.
-- [competitors/findings.md](competitors/findings.md) — общий вывод по конкурентам.
-- [seo_hypothesis/preliminary_seo_hypothesis_draft.md](seo_hypothesis/preliminary_seo_hypothesis_draft.md) — черновик предварительной SEO-гипотезы.
+- `roadmap.md` — дорожная карта проекта.
+- `product/product_brief.md` — продуктовая база Bablocar.
+- `partners/safe_claims.md` — безопасные формулировки.
+- `partners/partner_conditions.md` — агрегированные условия партнеров.
+- `competitors/findings.md` — общий вывод по конкурентам.
+- `seo_hypothesis/preliminary_seo_hypothesis_draft.md` — черновик предварительной SEO-гипотезы.
 
 ### Конкуренты
 
-- [competitors/analysis_plan.md](competitors/analysis_plan.md) — план конкурентной аналитики.
-- [competitors/technical_sitemap_audit.md](competitors/technical_sitemap_audit.md) — технический срез конкурентов.
-- [competitors/audits/](competitors/audits/) — детальные аудиты отдельных конкурентов.
+- `competitors/analysis_plan.md` — план конкурентной аналитики.
+- `competitors/technical_sitemap_audit.md` — технический срез конкурентов.
+- `competitors/audits/` — детальные аудиты отдельных конкурентов.
 
 Текущие аудиты:
 
-- [lioncredit_pts_audit.md](competitors/audits/lioncredit_pts_audit.md);
-- [creddy_pts_audit.md](competitors/audits/creddy_pts_audit.md);
-- [carmoney_pts_audit.md](competitors/audits/carmoney_pts_audit.md);
-- [cashmotor_pts_audit.md](competitors/audits/cashmotor_pts_audit.md);
-- [cashdrive_pts_audit.md](competitors/audits/cashdrive_pts_audit.md);
-- [zalog24h_pts_audit.md](competitors/audits/zalog24h_pts_audit.md);
-- [autolombardn1_pts_audit.md](competitors/audits/autolombardn1_pts_audit.md);
-- [autolombard_moskva_pts_audit.md](competitors/audits/autolombard_moskva_pts_audit.md);
-- [vashinvestor_pts_audit.md](competitors/audits/vashinvestor_pts_audit.md);
-- [centrofinans_pts_audit.md](competitors/audits/centrofinans_pts_audit.md).
+- `competitors/audits/lioncredit_pts_audit.md`;
+- `competitors/audits/creddy_pts_audit.md`;
+- `competitors/audits/carmoney_pts_audit.md`;
+- `competitors/audits/cashmotor_pts_audit.md`;
+- `competitors/audits/cashdrive_pts_audit.md`;
+- `competitors/audits/zalog24h_pts_audit.md`;
+- `competitors/audits/autolombardn1_pts_audit.md`;
+- `competitors/audits/autolombard_moskva_pts_audit.md`;
+- `competitors/audits/vashinvestor_pts_audit.md`;
+- `competitors/audits/centrofinans_pts_audit.md`.
 
 ### Локальные рабочие артефакты
 
@@ -266,7 +266,7 @@ x полезные инструменты
 ## Следующий рабочий шаг
 
 1. Кластеризовать `semantic/clean_semantic.csv`.
-2. Разобрать `risky`-формулировки через [partners/safe_claims.md](partners/safe_claims.md).
+2. Разобрать `risky`-формулировки через `partners/safe_claims.md`.
 3. Сформировать матрицу страниц-кандидатов: `geo / core_intent / modifier`.
 4. Для каждой страницы-кандидата оценить спрос, риск, уникальность, тип страницы и волну публикации.
 5. После этого переходить к этапу `SEO-стратегия` и затем к структуре сайта.
