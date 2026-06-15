@@ -340,14 +340,27 @@ technical_slug: dengi-pod-pts
 └── /samara/zaim-pod-pts/bez-spravok/
 ```
 
-## 10. Визуальная схема структуры
+## 10. Дерево SEO-архитектуры
+
+Основное дерево строится от федерального интента к гео-страницам этого интента, а затем к разрешенным модификаторам.
 
 ```text
+Уровень 1
+Главная
 /
-└── федеральные хабы интентов
+│
+└── Уровень 2
+    Федеральные хабы интентов
+    │
     ├── /zaim-pod-pts/
-    │   └── гео-страницы этого интента
+    │   Займ под ПТС
+    │   │
+    │   └── Уровень 3
+    │       Гео-страницы этого интента
+    │       │
     │       ├── /samara/zaim-pod-pts/
+    │       │   Займ под ПТС в Самаре
+    │       │   │
     │       │   └── модификаторы
     │       │       ├── /samara/zaim-pod-pts/bez-spravok/
     │       │       ├── /samara/zaim-pod-pts/s-plohoi-ki/
@@ -355,26 +368,31 @@ technical_slug: dengi-pod-pts
     │       ├── /kazan/zaim-pod-pts/
     │       └── /moskva/zaim-pod-pts/
     ├── /kredit-pod-pts/
+    │   Кредит под ПТС
+    │   │
     │   └── гео-страницы этого интента
     │       ├── /samara/kredit-pod-pts/
     │       ├── /kazan/kredit-pod-pts/
     │       └── /moskva/kredit-pod-pts/
     └── /dengi-pod-pts/
+        Деньги под ПТС
+        │
         └── гео-страницы этого интента
             ├── /samara/dengi-pod-pts/
             ├── /kazan/dengi-pod-pts/
             └── /moskva/dengi-pod-pts/
 ```
 
-Дополнительная городская навигация:
+Городские хабы - не отдельная основная ветка дерева, а поперечная навигация по городу:
 
 ```text
 /samara/
-├── /samara/zaim-pod-pts/
-├── /samara/kredit-pod-pts/
-├── /samara/dengi-pod-pts/
-├── /samara/zaim-pod-avto/
-└── /samara/avtolombard/
+└── все основные интенты в Самаре
+    ├── /samara/zaim-pod-pts/
+    ├── /samara/kredit-pod-pts/
+    ├── /samara/dengi-pod-pts/
+    ├── /samara/zaim-pod-avto/
+    └── /samara/avtolombard/
 ```
 
 Статьи и FAQ:
