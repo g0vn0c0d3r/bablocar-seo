@@ -12,9 +12,9 @@ Roadmap фиксирует порядок работы над SEO-проекто
 - сбор семантики;
 - обработка семантики.
 
-Текущий этап: `7. Структура сайта` на первом интенте.
+Текущий этап: `7. Структура сайта` на первом интенте + старт этапа `8. Шаблоны страниц`.
 
-Главные рабочие документы этапа: `seo_strategy/programmatic_geo_strategy.md`, `site_structure/zaim-pod-pts.md`.
+Главные рабочие документы этапа: `seo_strategy/programmatic_geo_strategy.md`, `site_structure/zaim-pod-pts.md`, `site_structure/commercial_landing_template.md`.
 
 Отдельного этапа предварительных гипотез в roadmap нет. Все рабочие допущения фиксируются внутри этапа `SEO-стратегия` или в рабочих справочниках.
 
@@ -65,7 +65,7 @@ Roadmap фиксирует порядок работы над SEO-проекто
 | 5. Обработка семантики | Готово как очищенная база | `semantic/clean_semantic.csv`, `semantic/strict_trash.csv`, `semantic/semantic_review.xlsx` |
 | 6. SEO-стратегия | Базовая логика готова | `seo_strategy/programmatic_geo_strategy.md` |
 | 7. Структура сайта | В работе | Первый интент: `site_structure/zaim-pod-pts.md` |
-| 8. Шаблоны страниц | Не начато | Будет после структуры |
+| 8. Шаблоны страниц | В работе | `site_structure/commercial_landing_template.md` |
 | 9. ТЗ на страницы | Не начато | Будет после шаблонов |
 | 10. Производство и запуск | Не начато | Будет после ТЗ и контроля качества |
 
@@ -324,6 +324,7 @@ Roadmap фиксирует порядок работы над SEO-проекто
 
 - `site_structure/`;
 - `site_structure/zaim-pod-pts.md`;
+- `site_structure/commercial_landing_template.md`;
 - `site_structure/url_map.md`;
 - `site_structure/internal_linking.md`.
 
@@ -360,7 +361,8 @@ Roadmap фиксирует порядок работы над SEO-проекто
 
 ### Результат
 
-Набор шаблонов для будущих страниц.
+Базовый шаблон коммерческого лендинга уже вынесен в `site_structure/commercial_landing_template.md`.
+Дальше шаблон проверяется на первых городских хабах, гео-интентах и гео-модификаторах.
 
 Каждый шаблон должен отвечать на вопрос:
 
@@ -370,10 +372,7 @@ Roadmap фиксирует порядок работы над SEO-проекто
 
 Возможные будущие артефакты:
 
-- `page_templates/`;
-- `page_templates/city_hub.md`;
-- `page_templates/geo_intent.md`;
-- `page_templates/geo_modifier.md`;
+- `page_templates/`, если базового коммерческого шаблона станет недостаточно;
 - `page_templates/commercial_hub.md`, если вернем федеральный слой;
 - `page_templates/article.md`.
 
