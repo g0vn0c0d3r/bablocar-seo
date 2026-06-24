@@ -7,13 +7,13 @@
 До запуска или вместе с первыми коммерческими лендингами создаем:
 
 ```text
-/o-kompanii/
-/kontakty/
-/partneram/
-/dokumenty/
-/politika-konfidencialnosti/
-/soglasie-na-obrabotku-personalnyh-dannyh/
-/polzovatelskoe-soglashenie/
+/about/
+/contacts/
+/partners/
+/documents/
+/privacy-policy/
+/personal-data-consent/
+/terms/
 ```
 
 Они нужны не из-за порядка в sitemap, а для доверия и юридической понятности: кто такой Bablocar, как работает сервис, как связаться, какие документы и правила действуют.
