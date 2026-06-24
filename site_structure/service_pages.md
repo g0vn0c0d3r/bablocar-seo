@@ -7,15 +7,17 @@
 До запуска или вместе с первыми коммерческими лендингами создаем:
 
 ```text
-/about/
-/contacts/
-/partners/
-/documents/
-/privacy-policy/
-/personal-data-consent/
-/terms/
+/o-kompanii/
+/kontakty/
+/partneram/
+/dokumenty/
+/politika-konfidencialnosti/
+/soglasie-na-obrabotku-personalnyh-dannyh/
+/polzovatelskoe-soglashenie/
 ```
 
 Они нужны не из-за порядка в sitemap, а для доверия и юридической понятности: кто такой Bablocar, как работает сервис, как связаться, какие документы и правила действуют.
+
+Рабочие тексты страниц лежат в `site_structure/service_pages_drafts/`.
 
 Добавляем эти страницы в футер и sitemap, но запуск коммерческих лендингов из-за них не задерживаем.
