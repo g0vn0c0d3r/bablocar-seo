@@ -12,9 +12,9 @@ Roadmap фиксирует порядок работы над SEO-проекто
 - сбор семантики;
 - обработка семантики.
 
-Текущий этап: `7. Структура сайта` на первом интенте + старт этапа `8. Шаблоны страниц`.
+Текущий этап: `7. Структура сайта` + `8. Шаблоны страниц` + аудит первых коммерческих лендингов.
 
-Главные рабочие документы этапа: `seo_strategy/programmatic_geo_strategy.md`, `site_structure/zaim-pod-pts.md`, `site_structure/commercial_landing_template.md`.
+Главные рабочие документы этапа: `seo_strategy/programmatic_geo_strategy.md`, `site_structure/zaim-pod-pts.md`, `site_structure/commercial_landing_template.md`, `site_structure/page_generation_rules.md`, `site_structure/commercial_landing_audit.md`.
 
 Отдельного этапа предварительных гипотез в roadmap нет. Все рабочие допущения фиксируются внутри этапа `SEO-стратегия` или в рабочих справочниках.
 
@@ -65,7 +65,7 @@ Roadmap фиксирует порядок работы над SEO-проекто
 | 5. Обработка семантики | Готово как очищенная база | `semantic/clean_semantic.csv`, `semantic/strict_trash.csv`, `semantic/semantic_review.xlsx` |
 | 6. SEO-стратегия | Базовая логика готова | `seo_strategy/programmatic_geo_strategy.md` |
 | 7. Структура сайта | В работе | Первый интент: `site_structure/zaim-pod-pts.md` |
-| 8. Шаблоны страниц | В работе | `site_structure/commercial_landing_template.md` |
+| 8. Шаблоны страниц | В работе | `site_structure/commercial_landing_template.md`, `site_structure/commercial_landing_audit.md` |
 | 9. ТЗ на страницы | Не начато | Будет после шаблонов |
 | 10. Производство и запуск | Не начато | Будет после ТЗ и контроля качества |
 
