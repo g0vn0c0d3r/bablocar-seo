@@ -2,8 +2,8 @@
 
 Снимок текущей опубликованной pSEO-структуры.
 
-Источник: `site_structure/live_sitemap_0.xml` (`https://bablocar.ru/sitemap/0.xml`)
-Дата проверки: 2026-07-17
+Источник: `site_structure/live_sitemap_0.xml` (`https://bablocar.ru/sitemap-0.xml`)
+Дата проверки: 2026-07-21
 
 Главная страница не указана в текущем sitemap, но остается корнем сайта.
 
@@ -19,8 +19,7 @@
 │   │   ├── /{city}/{intent}/bez-podtverzhdeniya-dohoda
 │   │   ├── /{city}/{intent}/s-plohoi-kreditnoi-istoriei
 │   │   └── /{city}/{intent}/dlya-biznesa
-│   ├── /{city}/{intent}
-│   └── /{city}/{intent}
+│   └── ... еще 5 интентов по той же схеме
 └── /info/{service-page}
 ```
 
@@ -43,13 +42,34 @@
 │   │   ├── /novosibirsk/kredit-pod-zalog-avto/bez-podtverzhdeniya-dohoda
 │   │   ├── /novosibirsk/kredit-pod-zalog-avto/s-plohoi-kreditnoi-istoriei
 │   │   └── /novosibirsk/kredit-pod-zalog-avto/dlya-biznesa
-│   └── /novosibirsk/dengi-pod-zalog-mashiny
-│       ├── /novosibirsk/dengi-pod-zalog-mashiny/online
-│       ├── /novosibirsk/dengi-pod-zalog-mashiny/na-kartu
-│       ├── /novosibirsk/dengi-pod-zalog-mashiny/bez-spravok
-│       ├── /novosibirsk/dengi-pod-zalog-mashiny/bez-podtverzhdeniya-dohoda
-│       ├── /novosibirsk/dengi-pod-zalog-mashiny/s-plohoi-kreditnoi-istoriei
-│       └── /novosibirsk/dengi-pod-zalog-mashiny/dlya-biznesa
+│   ├── /novosibirsk/dengi-pod-zalog-mashiny
+│   │   ├── /novosibirsk/dengi-pod-zalog-mashiny/online
+│   │   ├── /novosibirsk/dengi-pod-zalog-mashiny/na-kartu
+│   │   ├── /novosibirsk/dengi-pod-zalog-mashiny/bez-spravok
+│   │   ├── /novosibirsk/dengi-pod-zalog-mashiny/bez-podtverzhdeniya-dohoda
+│   │   ├── /novosibirsk/dengi-pod-zalog-mashiny/s-plohoi-kreditnoi-istoriei
+│   │   └── /novosibirsk/dengi-pod-zalog-mashiny/dlya-biznesa
+│   ├── /novosibirsk/zaim-pod-zalog-avto
+│   │   ├── /novosibirsk/zaim-pod-zalog-avto/online
+│   │   ├── /novosibirsk/zaim-pod-zalog-avto/na-kartu
+│   │   ├── /novosibirsk/zaim-pod-zalog-avto/bez-spravok
+│   │   ├── /novosibirsk/zaim-pod-zalog-avto/bez-podtverzhdeniya-dohoda
+│   │   ├── /novosibirsk/zaim-pod-zalog-avto/s-plohoi-kreditnoi-istoriei
+│   │   └── /novosibirsk/zaim-pod-zalog-avto/dlya-biznesa
+│   ├── /novosibirsk/dengi-pod-zalog-avto
+│   │   ├── /novosibirsk/dengi-pod-zalog-avto/online
+│   │   ├── /novosibirsk/dengi-pod-zalog-avto/na-kartu
+│   │   ├── /novosibirsk/dengi-pod-zalog-avto/bez-spravok
+│   │   ├── /novosibirsk/dengi-pod-zalog-avto/bez-podtverzhdeniya-dohoda
+│   │   ├── /novosibirsk/dengi-pod-zalog-avto/s-plohoi-kreditnoi-istoriei
+│   │   └── /novosibirsk/dengi-pod-zalog-avto/dlya-biznesa
+│   └── /novosibirsk/zaim-pod-zalog-mashiny
+│       ├── /novosibirsk/zaim-pod-zalog-mashiny/online
+│       ├── /novosibirsk/zaim-pod-zalog-mashiny/na-kartu
+│       ├── /novosibirsk/zaim-pod-zalog-mashiny/bez-spravok
+│       ├── /novosibirsk/zaim-pod-zalog-mashiny/bez-podtverzhdeniya-dohoda
+│       ├── /novosibirsk/zaim-pod-zalog-mashiny/s-plohoi-kreditnoi-istoriei
+│       └── /novosibirsk/zaim-pod-zalog-mashiny/dlya-biznesa
 ├── /samara
 │   ├── /samara/zaim-pod-zalog-pts
 │   │   ├── /samara/zaim-pod-zalog-pts/online
@@ -65,13 +85,34 @@
 │   │   ├── /samara/kredit-pod-zalog-avto/bez-podtverzhdeniya-dohoda
 │   │   ├── /samara/kredit-pod-zalog-avto/s-plohoi-kreditnoi-istoriei
 │   │   └── /samara/kredit-pod-zalog-avto/dlya-biznesa
-│   └── /samara/dengi-pod-zalog-mashiny
-│       ├── /samara/dengi-pod-zalog-mashiny/online
-│       ├── /samara/dengi-pod-zalog-mashiny/na-kartu
-│       ├── /samara/dengi-pod-zalog-mashiny/bez-spravok
-│       ├── /samara/dengi-pod-zalog-mashiny/bez-podtverzhdeniya-dohoda
-│       ├── /samara/dengi-pod-zalog-mashiny/s-plohoi-kreditnoi-istoriei
-│       └── /samara/dengi-pod-zalog-mashiny/dlya-biznesa
+│   ├── /samara/dengi-pod-zalog-mashiny
+│   │   ├── /samara/dengi-pod-zalog-mashiny/online
+│   │   ├── /samara/dengi-pod-zalog-mashiny/na-kartu
+│   │   ├── /samara/dengi-pod-zalog-mashiny/bez-spravok
+│   │   ├── /samara/dengi-pod-zalog-mashiny/bez-podtverzhdeniya-dohoda
+│   │   ├── /samara/dengi-pod-zalog-mashiny/s-plohoi-kreditnoi-istoriei
+│   │   └── /samara/dengi-pod-zalog-mashiny/dlya-biznesa
+│   ├── /samara/zaim-pod-zalog-avto
+│   │   ├── /samara/zaim-pod-zalog-avto/online
+│   │   ├── /samara/zaim-pod-zalog-avto/na-kartu
+│   │   ├── /samara/zaim-pod-zalog-avto/bez-spravok
+│   │   ├── /samara/zaim-pod-zalog-avto/bez-podtverzhdeniya-dohoda
+│   │   ├── /samara/zaim-pod-zalog-avto/s-plohoi-kreditnoi-istoriei
+│   │   └── /samara/zaim-pod-zalog-avto/dlya-biznesa
+│   ├── /samara/dengi-pod-zalog-avto
+│   │   ├── /samara/dengi-pod-zalog-avto/online
+│   │   ├── /samara/dengi-pod-zalog-avto/na-kartu
+│   │   ├── /samara/dengi-pod-zalog-avto/bez-spravok
+│   │   ├── /samara/dengi-pod-zalog-avto/bez-podtverzhdeniya-dohoda
+│   │   ├── /samara/dengi-pod-zalog-avto/s-plohoi-kreditnoi-istoriei
+│   │   └── /samara/dengi-pod-zalog-avto/dlya-biznesa
+│   └── /samara/zaim-pod-zalog-mashiny
+│       ├── /samara/zaim-pod-zalog-mashiny/online
+│       ├── /samara/zaim-pod-zalog-mashiny/na-kartu
+│       ├── /samara/zaim-pod-zalog-mashiny/bez-spravok
+│       ├── /samara/zaim-pod-zalog-mashiny/bez-podtverzhdeniya-dohoda
+│       ├── /samara/zaim-pod-zalog-mashiny/s-plohoi-kreditnoi-istoriei
+│       └── /samara/zaim-pod-zalog-mashiny/dlya-biznesa
 ├── /kazan
 │   ├── /kazan/zaim-pod-zalog-pts
 │   │   ├── /kazan/zaim-pod-zalog-pts/online
@@ -87,13 +128,34 @@
 │   │   ├── /kazan/kredit-pod-zalog-avto/bez-podtverzhdeniya-dohoda
 │   │   ├── /kazan/kredit-pod-zalog-avto/s-plohoi-kreditnoi-istoriei
 │   │   └── /kazan/kredit-pod-zalog-avto/dlya-biznesa
-│   └── /kazan/dengi-pod-zalog-mashiny
-│       ├── /kazan/dengi-pod-zalog-mashiny/online
-│       ├── /kazan/dengi-pod-zalog-mashiny/na-kartu
-│       ├── /kazan/dengi-pod-zalog-mashiny/bez-spravok
-│       ├── /kazan/dengi-pod-zalog-mashiny/bez-podtverzhdeniya-dohoda
-│       ├── /kazan/dengi-pod-zalog-mashiny/s-plohoi-kreditnoi-istoriei
-│       └── /kazan/dengi-pod-zalog-mashiny/dlya-biznesa
+│   ├── /kazan/dengi-pod-zalog-mashiny
+│   │   ├── /kazan/dengi-pod-zalog-mashiny/online
+│   │   ├── /kazan/dengi-pod-zalog-mashiny/na-kartu
+│   │   ├── /kazan/dengi-pod-zalog-mashiny/bez-spravok
+│   │   ├── /kazan/dengi-pod-zalog-mashiny/bez-podtverzhdeniya-dohoda
+│   │   ├── /kazan/dengi-pod-zalog-mashiny/s-plohoi-kreditnoi-istoriei
+│   │   └── /kazan/dengi-pod-zalog-mashiny/dlya-biznesa
+│   ├── /kazan/zaim-pod-zalog-avto
+│   │   ├── /kazan/zaim-pod-zalog-avto/online
+│   │   ├── /kazan/zaim-pod-zalog-avto/na-kartu
+│   │   ├── /kazan/zaim-pod-zalog-avto/bez-spravok
+│   │   ├── /kazan/zaim-pod-zalog-avto/bez-podtverzhdeniya-dohoda
+│   │   ├── /kazan/zaim-pod-zalog-avto/s-plohoi-kreditnoi-istoriei
+│   │   └── /kazan/zaim-pod-zalog-avto/dlya-biznesa
+│   ├── /kazan/dengi-pod-zalog-avto
+│   │   ├── /kazan/dengi-pod-zalog-avto/online
+│   │   ├── /kazan/dengi-pod-zalog-avto/na-kartu
+│   │   ├── /kazan/dengi-pod-zalog-avto/bez-spravok
+│   │   ├── /kazan/dengi-pod-zalog-avto/bez-podtverzhdeniya-dohoda
+│   │   ├── /kazan/dengi-pod-zalog-avto/s-plohoi-kreditnoi-istoriei
+│   │   └── /kazan/dengi-pod-zalog-avto/dlya-biznesa
+│   └── /kazan/zaim-pod-zalog-mashiny
+│       ├── /kazan/zaim-pod-zalog-mashiny/online
+│       ├── /kazan/zaim-pod-zalog-mashiny/na-kartu
+│       ├── /kazan/zaim-pod-zalog-mashiny/bez-spravok
+│       ├── /kazan/zaim-pod-zalog-mashiny/bez-podtverzhdeniya-dohoda
+│       ├── /kazan/zaim-pod-zalog-mashiny/s-plohoi-kreditnoi-istoriei
+│       └── /kazan/zaim-pod-zalog-mashiny/dlya-biznesa
 ├── /moscow
 │   ├── /moscow/zaim-pod-zalog-pts
 │   │   ├── /moscow/zaim-pod-zalog-pts/online
@@ -109,13 +171,34 @@
 │   │   ├── /moscow/kredit-pod-zalog-avto/bez-podtverzhdeniya-dohoda
 │   │   ├── /moscow/kredit-pod-zalog-avto/s-plohoi-kreditnoi-istoriei
 │   │   └── /moscow/kredit-pod-zalog-avto/dlya-biznesa
-│   └── /moscow/dengi-pod-zalog-mashiny
-│       ├── /moscow/dengi-pod-zalog-mashiny/online
-│       ├── /moscow/dengi-pod-zalog-mashiny/na-kartu
-│       ├── /moscow/dengi-pod-zalog-mashiny/bez-spravok
-│       ├── /moscow/dengi-pod-zalog-mashiny/bez-podtverzhdeniya-dohoda
-│       ├── /moscow/dengi-pod-zalog-mashiny/s-plohoi-kreditnoi-istoriei
-│       └── /moscow/dengi-pod-zalog-mashiny/dlya-biznesa
+│   ├── /moscow/dengi-pod-zalog-mashiny
+│   │   ├── /moscow/dengi-pod-zalog-mashiny/online
+│   │   ├── /moscow/dengi-pod-zalog-mashiny/na-kartu
+│   │   ├── /moscow/dengi-pod-zalog-mashiny/bez-spravok
+│   │   ├── /moscow/dengi-pod-zalog-mashiny/bez-podtverzhdeniya-dohoda
+│   │   ├── /moscow/dengi-pod-zalog-mashiny/s-plohoi-kreditnoi-istoriei
+│   │   └── /moscow/dengi-pod-zalog-mashiny/dlya-biznesa
+│   ├── /moscow/zaim-pod-zalog-avto
+│   │   ├── /moscow/zaim-pod-zalog-avto/online
+│   │   ├── /moscow/zaim-pod-zalog-avto/na-kartu
+│   │   ├── /moscow/zaim-pod-zalog-avto/bez-spravok
+│   │   ├── /moscow/zaim-pod-zalog-avto/bez-podtverzhdeniya-dohoda
+│   │   ├── /moscow/zaim-pod-zalog-avto/s-plohoi-kreditnoi-istoriei
+│   │   └── /moscow/zaim-pod-zalog-avto/dlya-biznesa
+│   ├── /moscow/dengi-pod-zalog-avto
+│   │   ├── /moscow/dengi-pod-zalog-avto/online
+│   │   ├── /moscow/dengi-pod-zalog-avto/na-kartu
+│   │   ├── /moscow/dengi-pod-zalog-avto/bez-spravok
+│   │   ├── /moscow/dengi-pod-zalog-avto/bez-podtverzhdeniya-dohoda
+│   │   ├── /moscow/dengi-pod-zalog-avto/s-plohoi-kreditnoi-istoriei
+│   │   └── /moscow/dengi-pod-zalog-avto/dlya-biznesa
+│   └── /moscow/zaim-pod-zalog-mashiny
+│       ├── /moscow/zaim-pod-zalog-mashiny/online
+│       ├── /moscow/zaim-pod-zalog-mashiny/na-kartu
+│       ├── /moscow/zaim-pod-zalog-mashiny/bez-spravok
+│       ├── /moscow/zaim-pod-zalog-mashiny/bez-podtverzhdeniya-dohoda
+│       ├── /moscow/zaim-pod-zalog-mashiny/s-plohoi-kreditnoi-istoriei
+│       └── /moscow/zaim-pod-zalog-mashiny/dlya-biznesa
 ├── /ekaterinburg
 │   ├── /ekaterinburg/zaim-pod-zalog-pts
 │   │   ├── /ekaterinburg/zaim-pod-zalog-pts/online
@@ -131,13 +214,120 @@
 │   │   ├── /ekaterinburg/kredit-pod-zalog-avto/bez-podtverzhdeniya-dohoda
 │   │   ├── /ekaterinburg/kredit-pod-zalog-avto/s-plohoi-kreditnoi-istoriei
 │   │   └── /ekaterinburg/kredit-pod-zalog-avto/dlya-biznesa
-│   └── /ekaterinburg/dengi-pod-zalog-mashiny
-│       ├── /ekaterinburg/dengi-pod-zalog-mashiny/online
-│       ├── /ekaterinburg/dengi-pod-zalog-mashiny/na-kartu
-│       ├── /ekaterinburg/dengi-pod-zalog-mashiny/bez-spravok
-│       ├── /ekaterinburg/dengi-pod-zalog-mashiny/bez-podtverzhdeniya-dohoda
-│       ├── /ekaterinburg/dengi-pod-zalog-mashiny/s-plohoi-kreditnoi-istoriei
-│       └── /ekaterinburg/dengi-pod-zalog-mashiny/dlya-biznesa
+│   ├── /ekaterinburg/dengi-pod-zalog-mashiny
+│   │   ├── /ekaterinburg/dengi-pod-zalog-mashiny/online
+│   │   ├── /ekaterinburg/dengi-pod-zalog-mashiny/na-kartu
+│   │   ├── /ekaterinburg/dengi-pod-zalog-mashiny/bez-spravok
+│   │   ├── /ekaterinburg/dengi-pod-zalog-mashiny/bez-podtverzhdeniya-dohoda
+│   │   ├── /ekaterinburg/dengi-pod-zalog-mashiny/s-plohoi-kreditnoi-istoriei
+│   │   └── /ekaterinburg/dengi-pod-zalog-mashiny/dlya-biznesa
+│   ├── /ekaterinburg/zaim-pod-zalog-avto
+│   │   ├── /ekaterinburg/zaim-pod-zalog-avto/online
+│   │   ├── /ekaterinburg/zaim-pod-zalog-avto/na-kartu
+│   │   ├── /ekaterinburg/zaim-pod-zalog-avto/bez-spravok
+│   │   ├── /ekaterinburg/zaim-pod-zalog-avto/bez-podtverzhdeniya-dohoda
+│   │   ├── /ekaterinburg/zaim-pod-zalog-avto/s-plohoi-kreditnoi-istoriei
+│   │   └── /ekaterinburg/zaim-pod-zalog-avto/dlya-biznesa
+│   ├── /ekaterinburg/dengi-pod-zalog-avto
+│   │   ├── /ekaterinburg/dengi-pod-zalog-avto/online
+│   │   ├── /ekaterinburg/dengi-pod-zalog-avto/na-kartu
+│   │   ├── /ekaterinburg/dengi-pod-zalog-avto/bez-spravok
+│   │   ├── /ekaterinburg/dengi-pod-zalog-avto/bez-podtverzhdeniya-dohoda
+│   │   ├── /ekaterinburg/dengi-pod-zalog-avto/s-plohoi-kreditnoi-istoriei
+│   │   └── /ekaterinburg/dengi-pod-zalog-avto/dlya-biznesa
+│   └── /ekaterinburg/zaim-pod-zalog-mashiny
+│       ├── /ekaterinburg/zaim-pod-zalog-mashiny/online
+│       ├── /ekaterinburg/zaim-pod-zalog-mashiny/na-kartu
+│       ├── /ekaterinburg/zaim-pod-zalog-mashiny/bez-spravok
+│       ├── /ekaterinburg/zaim-pod-zalog-mashiny/bez-podtverzhdeniya-dohoda
+│       ├── /ekaterinburg/zaim-pod-zalog-mashiny/s-plohoi-kreditnoi-istoriei
+│       └── /ekaterinburg/zaim-pod-zalog-mashiny/dlya-biznesa
+├── /sankt-peterburg
+│   ├── /sankt-peterburg/zaim-pod-zalog-pts
+│   │   ├── /sankt-peterburg/zaim-pod-zalog-pts/online
+│   │   ├── /sankt-peterburg/zaim-pod-zalog-pts/na-kartu
+│   │   ├── /sankt-peterburg/zaim-pod-zalog-pts/bez-spravok
+│   │   ├── /sankt-peterburg/zaim-pod-zalog-pts/bez-podtverzhdeniya-dohoda
+│   │   ├── /sankt-peterburg/zaim-pod-zalog-pts/s-plohoi-kreditnoi-istoriei
+│   │   └── /sankt-peterburg/zaim-pod-zalog-pts/dlya-biznesa
+│   ├── /sankt-peterburg/kredit-pod-zalog-avto
+│   │   ├── /sankt-peterburg/kredit-pod-zalog-avto/online
+│   │   ├── /sankt-peterburg/kredit-pod-zalog-avto/na-kartu
+│   │   ├── /sankt-peterburg/kredit-pod-zalog-avto/bez-spravok
+│   │   ├── /sankt-peterburg/kredit-pod-zalog-avto/bez-podtverzhdeniya-dohoda
+│   │   ├── /sankt-peterburg/kredit-pod-zalog-avto/s-plohoi-kreditnoi-istoriei
+│   │   └── /sankt-peterburg/kredit-pod-zalog-avto/dlya-biznesa
+│   ├── /sankt-peterburg/dengi-pod-zalog-mashiny
+│   │   ├── /sankt-peterburg/dengi-pod-zalog-mashiny/online
+│   │   ├── /sankt-peterburg/dengi-pod-zalog-mashiny/na-kartu
+│   │   ├── /sankt-peterburg/dengi-pod-zalog-mashiny/bez-spravok
+│   │   ├── /sankt-peterburg/dengi-pod-zalog-mashiny/bez-podtverzhdeniya-dohoda
+│   │   ├── /sankt-peterburg/dengi-pod-zalog-mashiny/s-plohoi-kreditnoi-istoriei
+│   │   └── /sankt-peterburg/dengi-pod-zalog-mashiny/dlya-biznesa
+│   ├── /sankt-peterburg/zaim-pod-zalog-avto
+│   │   ├── /sankt-peterburg/zaim-pod-zalog-avto/online
+│   │   ├── /sankt-peterburg/zaim-pod-zalog-avto/na-kartu
+│   │   ├── /sankt-peterburg/zaim-pod-zalog-avto/bez-spravok
+│   │   ├── /sankt-peterburg/zaim-pod-zalog-avto/bez-podtverzhdeniya-dohoda
+│   │   ├── /sankt-peterburg/zaim-pod-zalog-avto/s-plohoi-kreditnoi-istoriei
+│   │   └── /sankt-peterburg/zaim-pod-zalog-avto/dlya-biznesa
+│   ├── /sankt-peterburg/dengi-pod-zalog-avto
+│   │   ├── /sankt-peterburg/dengi-pod-zalog-avto/online
+│   │   ├── /sankt-peterburg/dengi-pod-zalog-avto/na-kartu
+│   │   ├── /sankt-peterburg/dengi-pod-zalog-avto/bez-spravok
+│   │   ├── /sankt-peterburg/dengi-pod-zalog-avto/bez-podtverzhdeniya-dohoda
+│   │   ├── /sankt-peterburg/dengi-pod-zalog-avto/s-plohoi-kreditnoi-istoriei
+│   │   └── /sankt-peterburg/dengi-pod-zalog-avto/dlya-biznesa
+│   └── /sankt-peterburg/zaim-pod-zalog-mashiny
+│       ├── /sankt-peterburg/zaim-pod-zalog-mashiny/online
+│       ├── /sankt-peterburg/zaim-pod-zalog-mashiny/na-kartu
+│       ├── /sankt-peterburg/zaim-pod-zalog-mashiny/bez-spravok
+│       ├── /sankt-peterburg/zaim-pod-zalog-mashiny/bez-podtverzhdeniya-dohoda
+│       ├── /sankt-peterburg/zaim-pod-zalog-mashiny/s-plohoi-kreditnoi-istoriei
+│       └── /sankt-peterburg/zaim-pod-zalog-mashiny/dlya-biznesa
+├── /krasnoyarsk
+│   ├── /krasnoyarsk/zaim-pod-zalog-pts
+│   │   ├── /krasnoyarsk/zaim-pod-zalog-pts/online
+│   │   ├── /krasnoyarsk/zaim-pod-zalog-pts/na-kartu
+│   │   ├── /krasnoyarsk/zaim-pod-zalog-pts/bez-spravok
+│   │   ├── /krasnoyarsk/zaim-pod-zalog-pts/bez-podtverzhdeniya-dohoda
+│   │   ├── /krasnoyarsk/zaim-pod-zalog-pts/s-plohoi-kreditnoi-istoriei
+│   │   └── /krasnoyarsk/zaim-pod-zalog-pts/dlya-biznesa
+│   ├── /krasnoyarsk/kredit-pod-zalog-avto
+│   │   ├── /krasnoyarsk/kredit-pod-zalog-avto/online
+│   │   ├── /krasnoyarsk/kredit-pod-zalog-avto/na-kartu
+│   │   ├── /krasnoyarsk/kredit-pod-zalog-avto/bez-spravok
+│   │   ├── /krasnoyarsk/kredit-pod-zalog-avto/bez-podtverzhdeniya-dohoda
+│   │   ├── /krasnoyarsk/kredit-pod-zalog-avto/s-plohoi-kreditnoi-istoriei
+│   │   └── /krasnoyarsk/kredit-pod-zalog-avto/dlya-biznesa
+│   ├── /krasnoyarsk/dengi-pod-zalog-mashiny
+│   │   ├── /krasnoyarsk/dengi-pod-zalog-mashiny/online
+│   │   ├── /krasnoyarsk/dengi-pod-zalog-mashiny/na-kartu
+│   │   ├── /krasnoyarsk/dengi-pod-zalog-mashiny/bez-spravok
+│   │   ├── /krasnoyarsk/dengi-pod-zalog-mashiny/bez-podtverzhdeniya-dohoda
+│   │   ├── /krasnoyarsk/dengi-pod-zalog-mashiny/s-plohoi-kreditnoi-istoriei
+│   │   └── /krasnoyarsk/dengi-pod-zalog-mashiny/dlya-biznesa
+│   ├── /krasnoyarsk/zaim-pod-zalog-avto
+│   │   ├── /krasnoyarsk/zaim-pod-zalog-avto/online
+│   │   ├── /krasnoyarsk/zaim-pod-zalog-avto/na-kartu
+│   │   ├── /krasnoyarsk/zaim-pod-zalog-avto/bez-spravok
+│   │   ├── /krasnoyarsk/zaim-pod-zalog-avto/bez-podtverzhdeniya-dohoda
+│   │   ├── /krasnoyarsk/zaim-pod-zalog-avto/s-plohoi-kreditnoi-istoriei
+│   │   └── /krasnoyarsk/zaim-pod-zalog-avto/dlya-biznesa
+│   ├── /krasnoyarsk/dengi-pod-zalog-avto
+│   │   ├── /krasnoyarsk/dengi-pod-zalog-avto/online
+│   │   ├── /krasnoyarsk/dengi-pod-zalog-avto/na-kartu
+│   │   ├── /krasnoyarsk/dengi-pod-zalog-avto/bez-spravok
+│   │   ├── /krasnoyarsk/dengi-pod-zalog-avto/bez-podtverzhdeniya-dohoda
+│   │   ├── /krasnoyarsk/dengi-pod-zalog-avto/s-plohoi-kreditnoi-istoriei
+│   │   └── /krasnoyarsk/dengi-pod-zalog-avto/dlya-biznesa
+│   └── /krasnoyarsk/zaim-pod-zalog-mashiny
+│       ├── /krasnoyarsk/zaim-pod-zalog-mashiny/online
+│       ├── /krasnoyarsk/zaim-pod-zalog-mashiny/na-kartu
+│       ├── /krasnoyarsk/zaim-pod-zalog-mashiny/bez-spravok
+│       ├── /krasnoyarsk/zaim-pod-zalog-mashiny/bez-podtverzhdeniya-dohoda
+│       ├── /krasnoyarsk/zaim-pod-zalog-mashiny/s-plohoi-kreditnoi-istoriei
+│       └── /krasnoyarsk/zaim-pod-zalog-mashiny/dlya-biznesa
 └── /info
     ├── /info/about
     ├── /info/contacts
@@ -153,40 +343,55 @@
 | Уровень | Количество | Что входит |
 | --- | ---: | --- |
 | Главная | 1 | `/` |
-| Городские хабы | 5 | novosibirsk, samara, kazan, moscow, ekaterinburg |
-| Интентные страницы | 15 | 3 интента x 5 городов |
-| Модификаторы | 90 | 6 модификаторов x 3 интента x 5 городов |
+| Городские хабы | 7 | novosibirsk, samara, kazan, moscow, ekaterinburg, sankt-peterburg, krasnoyarsk |
+| Интентные страницы | 42 | 6 интентов x 7 городов |
+| Модификаторы | 252 | 6 модификаторов x 6 интентов x 7 городов |
 | Служебные страницы | 7 | Раздел `/info` |
 
-Коммерческих страниц в sitemap: `110`.
-Коммерческая сетка с главной: `111`.
-Всего в sitemap: `117`, без главной.
+Коммерческих страниц в sitemap: `301`.
+Коммерческая сетка с главной: `302`.
+Всего в sitemap: `308`, без главной.
 
 ## Текущие города
 
-| Slug | Реальных страниц в sitemap |
-| --- | ---: |
-| `novosibirsk` | 22 |
-| `samara` | 22 |
-| `kazan` | 22 |
-| `moscow` | 22 |
-| `ekaterinburg` | 22 |
+| Slug | Город | Страниц в sitemap |
+| --- | --- | ---: |
+| `novosibirsk` | Новосибирск | 43 |
+| `samara` | Самара | 43 |
+| `kazan` | Казань | 43 |
+| `moscow` | Москва | 43 |
+| `ekaterinburg` | Екатеринбург | 43 |
+| `sankt-peterburg` | Санкт-Петербург | 43 |
+| `krasnoyarsk` | Красноярск | 43 |
 
 ## Текущие интенты
 
-| Slug | Название |
-| --- | --- |
-| `zaim-pod-zalog-pts` | Займ под залог ПТС |
-| `kredit-pod-zalog-avto` | Кредит под залог авто |
-| `dengi-pod-zalog-mashiny` | Деньги под залог машины |
+| Slug | Название | Статус в sitemap |
+| --- | --- | --- |
+| `zaim-pod-zalog-pts` | Займ под залог ПТС | 7 base + 42 modifiers |
+| `kredit-pod-zalog-avto` | Кредит под залог авто | 7 base + 42 modifiers |
+| `dengi-pod-zalog-mashiny` | Деньги под залог машины | 7 base + 42 modifiers |
+| `zaim-pod-zalog-avto` | Займ под залог авто | 7 base + 42 modifiers |
+| `dengi-pod-zalog-avto` | Деньги под залог авто | 7 base + 42 modifiers |
+| `zaim-pod-zalog-mashiny` | Займ под залог машины | 7 base + 42 modifiers |
 
 ## Текущие модификаторы
 
-| Slug | Название |
-| --- | --- |
-| `online` | Онлайн |
-| `na-kartu` | На карту |
-| `bez-spravok` | Без справок |
-| `bez-podtverzhdeniya-dohoda` | Без подтверждения дохода |
-| `s-plohoi-kreditnoi-istoriei` | С плохой кредитной историей |
-| `dlya-biznesa` | Для бизнеса |
+| Slug | Количество страниц |
+| --- | ---: |
+| `online` | 42 |
+| `na-kartu` | 42 |
+| `bez-spravok` | 42 |
+| `bez-podtverzhdeniya-dohoda` | 42 |
+| `s-plohoi-kreditnoi-istoriei` | 42 |
+| `dlya-biznesa` | 42 |
+
+## Служебные страницы
+
+- `/info/about`
+- `/info/contacts`
+- `/info/documents`
+- `/info/partners`
+- `/info/personal-data`
+- `/info/privacy-policy`
+- `/info/terms`
