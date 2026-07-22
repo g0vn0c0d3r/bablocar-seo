@@ -3,7 +3,7 @@
 Снимок текущей опубликованной pSEO-структуры.
 
 Источник: `site_structure/live_sitemap_0.xml` (`https://bablocar.ru/sitemap-0.xml`)
-Дата проверки: 2026-07-21
+Дата проверки: 2026-07-23
 
 Главная страница не указана в текущем sitemap, но остается корнем сайта.
 
@@ -328,6 +328,49 @@
 │       ├── /krasnoyarsk/zaim-pod-zalog-mashiny/bez-podtverzhdeniya-dohoda
 │       ├── /krasnoyarsk/zaim-pod-zalog-mashiny/s-plohoi-kreditnoi-istoriei
 │       └── /krasnoyarsk/zaim-pod-zalog-mashiny/dlya-biznesa
+├── /nizhniy-novgorod
+│   ├── /nizhniy-novgorod/zaim-pod-zalog-pts
+│   │   ├── /nizhniy-novgorod/zaim-pod-zalog-pts/online
+│   │   ├── /nizhniy-novgorod/zaim-pod-zalog-pts/na-kartu
+│   │   ├── /nizhniy-novgorod/zaim-pod-zalog-pts/bez-spravok
+│   │   ├── /nizhniy-novgorod/zaim-pod-zalog-pts/bez-podtverzhdeniya-dohoda
+│   │   ├── /nizhniy-novgorod/zaim-pod-zalog-pts/s-plohoi-kreditnoi-istoriei
+│   │   └── /nizhniy-novgorod/zaim-pod-zalog-pts/dlya-biznesa
+│   ├── /nizhniy-novgorod/kredit-pod-zalog-avto
+│   │   ├── /nizhniy-novgorod/kredit-pod-zalog-avto/online
+│   │   ├── /nizhniy-novgorod/kredit-pod-zalog-avto/na-kartu
+│   │   ├── /nizhniy-novgorod/kredit-pod-zalog-avto/bez-spravok
+│   │   ├── /nizhniy-novgorod/kredit-pod-zalog-avto/bez-podtverzhdeniya-dohoda
+│   │   ├── /nizhniy-novgorod/kredit-pod-zalog-avto/s-plohoi-kreditnoi-istoriei
+│   │   └── /nizhniy-novgorod/kredit-pod-zalog-avto/dlya-biznesa
+│   ├── /nizhniy-novgorod/dengi-pod-zalog-mashiny
+│   │   ├── /nizhniy-novgorod/dengi-pod-zalog-mashiny/online
+│   │   ├── /nizhniy-novgorod/dengi-pod-zalog-mashiny/na-kartu
+│   │   ├── /nizhniy-novgorod/dengi-pod-zalog-mashiny/bez-spravok
+│   │   ├── /nizhniy-novgorod/dengi-pod-zalog-mashiny/bez-podtverzhdeniya-dohoda
+│   │   ├── /nizhniy-novgorod/dengi-pod-zalog-mashiny/s-plohoi-kreditnoi-istoriei
+│   │   └── /nizhniy-novgorod/dengi-pod-zalog-mashiny/dlya-biznesa
+│   ├── /nizhniy-novgorod/zaim-pod-zalog-avto
+│   │   ├── /nizhniy-novgorod/zaim-pod-zalog-avto/online
+│   │   ├── /nizhniy-novgorod/zaim-pod-zalog-avto/na-kartu
+│   │   ├── /nizhniy-novgorod/zaim-pod-zalog-avto/bez-spravok
+│   │   ├── /nizhniy-novgorod/zaim-pod-zalog-avto/bez-podtverzhdeniya-dohoda
+│   │   ├── /nizhniy-novgorod/zaim-pod-zalog-avto/s-plohoi-kreditnoi-istoriei
+│   │   └── /nizhniy-novgorod/zaim-pod-zalog-avto/dlya-biznesa
+│   ├── /nizhniy-novgorod/dengi-pod-zalog-avto
+│   │   ├── /nizhniy-novgorod/dengi-pod-zalog-avto/online
+│   │   ├── /nizhniy-novgorod/dengi-pod-zalog-avto/na-kartu
+│   │   ├── /nizhniy-novgorod/dengi-pod-zalog-avto/bez-spravok
+│   │   ├── /nizhniy-novgorod/dengi-pod-zalog-avto/bez-podtverzhdeniya-dohoda
+│   │   ├── /nizhniy-novgorod/dengi-pod-zalog-avto/s-plohoi-kreditnoi-istoriei
+│   │   └── /nizhniy-novgorod/dengi-pod-zalog-avto/dlya-biznesa
+│   └── /nizhniy-novgorod/zaim-pod-zalog-mashiny
+│       ├── /nizhniy-novgorod/zaim-pod-zalog-mashiny/online
+│       ├── /nizhniy-novgorod/zaim-pod-zalog-mashiny/na-kartu
+│       ├── /nizhniy-novgorod/zaim-pod-zalog-mashiny/bez-spravok
+│       ├── /nizhniy-novgorod/zaim-pod-zalog-mashiny/bez-podtverzhdeniya-dohoda
+│       ├── /nizhniy-novgorod/zaim-pod-zalog-mashiny/s-plohoi-kreditnoi-istoriei
+│       └── /nizhniy-novgorod/zaim-pod-zalog-mashiny/dlya-biznesa
 └── /info
     ├── /info/about
     ├── /info/contacts
@@ -343,14 +386,14 @@
 | Уровень | Количество | Что входит |
 | --- | ---: | --- |
 | Главная | 1 | `/` |
-| Городские хабы | 7 | novosibirsk, samara, kazan, moscow, ekaterinburg, sankt-peterburg, krasnoyarsk |
-| Интентные страницы | 42 | 6 интентов x 7 городов |
-| Модификаторы | 252 | 6 модификаторов x 6 интентов x 7 городов |
+| Городские хабы | 8 | novosibirsk, samara, kazan, moscow, ekaterinburg, sankt-peterburg, krasnoyarsk, nizhniy-novgorod |
+| Интентные страницы | 48 | 6 интентов x 8 городов |
+| Модификаторы | 288 | 6 модификаторов x 6 интентов x 8 городов |
 | Служебные страницы | 7 | Раздел `/info` |
 
-Коммерческих страниц в sitemap: `301`.
-Коммерческая сетка с главной: `302`.
-Всего в sitemap: `308`, без главной.
+Коммерческих страниц в sitemap: `344`.
+Коммерческая сетка с главной: `345`.
+Всего в sitemap: `351`, без главной.
 
 ## Текущие города
 
@@ -363,28 +406,29 @@
 | `ekaterinburg` | Екатеринбург | 43 |
 | `sankt-peterburg` | Санкт-Петербург | 43 |
 | `krasnoyarsk` | Красноярск | 43 |
+| `nizhniy-novgorod` | Нижний Новгород | 43 |
 
 ## Текущие интенты
 
 | Slug | Название | Статус в sitemap |
 | --- | --- | --- |
-| `zaim-pod-zalog-pts` | Займ под залог ПТС | 7 base + 42 modifiers |
-| `kredit-pod-zalog-avto` | Кредит под залог авто | 7 base + 42 modifiers |
-| `dengi-pod-zalog-mashiny` | Деньги под залог машины | 7 base + 42 modifiers |
-| `zaim-pod-zalog-avto` | Займ под залог авто | 7 base + 42 modifiers |
-| `dengi-pod-zalog-avto` | Деньги под залог авто | 7 base + 42 modifiers |
-| `zaim-pod-zalog-mashiny` | Займ под залог машины | 7 base + 42 modifiers |
+| `zaim-pod-zalog-pts` | Займ под залог ПТС | 8 base + 48 modifiers |
+| `kredit-pod-zalog-avto` | Кредит под залог авто | 8 base + 48 modifiers |
+| `dengi-pod-zalog-mashiny` | Деньги под залог машины | 8 base + 48 modifiers |
+| `zaim-pod-zalog-avto` | Займ под залог авто | 8 base + 48 modifiers |
+| `dengi-pod-zalog-avto` | Деньги под залог авто | 8 base + 48 modifiers |
+| `zaim-pod-zalog-mashiny` | Займ под залог машины | 8 base + 48 modifiers |
 
 ## Текущие модификаторы
 
 | Slug | Количество страниц |
 | --- | ---: |
-| `online` | 42 |
-| `na-kartu` | 42 |
-| `bez-spravok` | 42 |
-| `bez-podtverzhdeniya-dohoda` | 42 |
-| `s-plohoi-kreditnoi-istoriei` | 42 |
-| `dlya-biznesa` | 42 |
+| `online` | 48 |
+| `na-kartu` | 48 |
+| `bez-spravok` | 48 |
+| `bez-podtverzhdeniya-dohoda` | 48 |
+| `s-plohoi-kreditnoi-istoriei` | 48 |
+| `dlya-biznesa` | 48 |
 
 ## Служебные страницы
 
