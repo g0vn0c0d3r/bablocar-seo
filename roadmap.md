@@ -12,9 +12,9 @@ Roadmap фиксирует порядок работы над SEO-проекто
 - сбор семантики;
 - обработка семантики.
 
-Текущий этап: `7. Структура сайта` + `8. Шаблоны страниц` + аудит первых коммерческих лендингов.
+Текущий этап: `10. Производство и запуск` поверх согласованной pSEO-структуры.
 
-Главные рабочие документы этапа: `seo_strategy/programmatic_geo_strategy.md`, `site_structure/zaim-pod-pts.md`, `site_structure/commercial_landing_template.md`, `site_structure/page_generation_rules.md`, `site_structure/commercial_landing_audit.md`.
+Главные рабочие документы этапа: `seo_strategy/programmatic_geo_strategy.md`, `site_structure/live_sitemap_0.xml`, `site_structure/live_publication_smoke_check.md`, `site_structure/page_generation_rules.md`, `site_structure/page_meta_hero_checklist.md`.
 
 Отдельного этапа предварительных гипотез в roadmap нет. Все рабочие допущения фиксируются внутри этапа `SEO-стратегия` или в рабочих справочниках.
 
@@ -64,10 +64,10 @@ Roadmap фиксирует порядок работы над SEO-проекто
 | 4. Сбор семантики | Готово как локальный рабочий массив | `semantic/raw_csv/`, `semantic/combined_raw.csv` |
 | 5. Обработка семантики | Готово как очищенная база | `semantic/clean_semantic.csv`, `semantic/strict_trash.csv`, `semantic/semantic_review.xlsx` |
 | 6. SEO-стратегия | Базовая логика готова | `seo_strategy/programmatic_geo_strategy.md` |
-| 7. Структура сайта | В работе | Первый интент: `site_structure/zaim-pod-pts.md` |
-| 8. Шаблоны страниц | В работе | `site_structure/commercial_landing_template.md`, `site_structure/commercial_landing_audit.md` |
-| 9. ТЗ на страницы | Не начато | Будет после шаблонов |
-| 10. Производство и запуск | Не начато | Будет после ТЗ и контроля качества |
+| 7. Структура сайта | Рабочая сетка опубликована, продолжается расширение | `site_structure/live_sitemap_0.xml`, `seo_strategy/programmatic_geo_strategy.md` |
+| 8. Шаблоны страниц | Базовые шаблоны используются в live-сетке | `site_structure/commercial_landing_template.md`, `site_structure/commercial_landing_audit.md` |
+| 9. ТЗ на страницы | Встроено в правила генерации | `site_structure/page_generation_rules.md`, `site_structure/page_meta_hero_checklist.md` |
+| 10. Производство и запуск | В работе | Города, интенты и модификаторы публикуются по очереди из стратегии |
 
 ## 1. Продуктовая база
 
@@ -320,13 +320,13 @@ Roadmap фиксирует порядок работы над SEO-проекто
 - служебные страницы;
 - очередность запуска.
 
-Текущие и будущие артефакты:
+Текущие артефакты:
 
 - `site_structure/`;
-- `site_structure/zaim-pod-pts.md`;
 - `site_structure/commercial_landing_template.md`;
-- `site_structure/url_map.md`;
-- `site_structure/internal_linking.md`.
+- `site_structure/live_sitemap_0.xml`;
+- `site_structure/live_publication_smoke_check.md`;
+- `site_structure/page_generation_rules.md`.
 
 ## 8. Шаблоны страниц
 
@@ -449,8 +449,8 @@ Roadmap фиксирует порядок работы над SEO-проекто
 
 ## Следующий рабочий шаг
 
-1. Согласовать `site_structure/zaim-pod-pts.md`.
-2. Зафиксировать города и модификаторы первого интента.
-3. Выбрать следующий коммерческий интент.
-4. Сделать такую же карту следующего интента.
-5. После нескольких интент-карт собрать общую URL-карту сайта.
+1. Держать `site_structure/live_sitemap_0.xml` синхронным с `https://bablocar.ru/sitemap-0.xml`.
+2. После каждой публикации прогонять короткий smoke-check верхнего слоя.
+3. По текущей стратегии довести интенты до 9.
+4. После 9 интентов продолжить города-миллионники, затем города 500 тыс.-1 млн.
+5. Визуальную карту не хранить в проекте: при необходимости пересобирать ее из sitemap.
