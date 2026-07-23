@@ -371,6 +371,49 @@
 │       ├── /nizhniy-novgorod/zaim-pod-zalog-mashiny/bez-podtverzhdeniya-dohoda
 │       ├── /nizhniy-novgorod/zaim-pod-zalog-mashiny/s-plohoi-kreditnoi-istoriei
 │       └── /nizhniy-novgorod/zaim-pod-zalog-mashiny/dlya-biznesa
+├── /chelyabinsk
+│   ├── /chelyabinsk/zaim-pod-zalog-pts
+│   │   ├── /chelyabinsk/zaim-pod-zalog-pts/online
+│   │   ├── /chelyabinsk/zaim-pod-zalog-pts/na-kartu
+│   │   ├── /chelyabinsk/zaim-pod-zalog-pts/bez-spravok
+│   │   ├── /chelyabinsk/zaim-pod-zalog-pts/bez-podtverzhdeniya-dohoda
+│   │   ├── /chelyabinsk/zaim-pod-zalog-pts/s-plohoi-kreditnoi-istoriei
+│   │   └── /chelyabinsk/zaim-pod-zalog-pts/dlya-biznesa
+│   ├── /chelyabinsk/kredit-pod-zalog-avto
+│   │   ├── /chelyabinsk/kredit-pod-zalog-avto/online
+│   │   ├── /chelyabinsk/kredit-pod-zalog-avto/na-kartu
+│   │   ├── /chelyabinsk/kredit-pod-zalog-avto/bez-spravok
+│   │   ├── /chelyabinsk/kredit-pod-zalog-avto/bez-podtverzhdeniya-dohoda
+│   │   ├── /chelyabinsk/kredit-pod-zalog-avto/s-plohoi-kreditnoi-istoriei
+│   │   └── /chelyabinsk/kredit-pod-zalog-avto/dlya-biznesa
+│   ├── /chelyabinsk/dengi-pod-zalog-mashiny
+│   │   ├── /chelyabinsk/dengi-pod-zalog-mashiny/online
+│   │   ├── /chelyabinsk/dengi-pod-zalog-mashiny/na-kartu
+│   │   ├── /chelyabinsk/dengi-pod-zalog-mashiny/bez-spravok
+│   │   ├── /chelyabinsk/dengi-pod-zalog-mashiny/bez-podtverzhdeniya-dohoda
+│   │   ├── /chelyabinsk/dengi-pod-zalog-mashiny/s-plohoi-kreditnoi-istoriei
+│   │   └── /chelyabinsk/dengi-pod-zalog-mashiny/dlya-biznesa
+│   ├── /chelyabinsk/zaim-pod-zalog-avto
+│   │   ├── /chelyabinsk/zaim-pod-zalog-avto/online
+│   │   ├── /chelyabinsk/zaim-pod-zalog-avto/na-kartu
+│   │   ├── /chelyabinsk/zaim-pod-zalog-avto/bez-spravok
+│   │   ├── /chelyabinsk/zaim-pod-zalog-avto/bez-podtverzhdeniya-dohoda
+│   │   ├── /chelyabinsk/zaim-pod-zalog-avto/s-plohoi-kreditnoi-istoriei
+│   │   └── /chelyabinsk/zaim-pod-zalog-avto/dlya-biznesa
+│   ├── /chelyabinsk/dengi-pod-zalog-avto
+│   │   ├── /chelyabinsk/dengi-pod-zalog-avto/online
+│   │   ├── /chelyabinsk/dengi-pod-zalog-avto/na-kartu
+│   │   ├── /chelyabinsk/dengi-pod-zalog-avto/bez-spravok
+│   │   ├── /chelyabinsk/dengi-pod-zalog-avto/bez-podtverzhdeniya-dohoda
+│   │   ├── /chelyabinsk/dengi-pod-zalog-avto/s-plohoi-kreditnoi-istoriei
+│   │   └── /chelyabinsk/dengi-pod-zalog-avto/dlya-biznesa
+│   └── /chelyabinsk/zaim-pod-zalog-mashiny
+│       ├── /chelyabinsk/zaim-pod-zalog-mashiny/online
+│       ├── /chelyabinsk/zaim-pod-zalog-mashiny/na-kartu
+│       ├── /chelyabinsk/zaim-pod-zalog-mashiny/bez-spravok
+│       ├── /chelyabinsk/zaim-pod-zalog-mashiny/bez-podtverzhdeniya-dohoda
+│       ├── /chelyabinsk/zaim-pod-zalog-mashiny/s-plohoi-kreditnoi-istoriei
+│       └── /chelyabinsk/zaim-pod-zalog-mashiny/dlya-biznesa
 └── /info
     ├── /info/about
     ├── /info/contacts
@@ -386,14 +429,14 @@
 | Уровень | Количество | Что входит |
 | --- | ---: | --- |
 | Главная | 1 | `/` |
-| Городские хабы | 8 | novosibirsk, samara, kazan, moscow, ekaterinburg, sankt-peterburg, krasnoyarsk, nizhniy-novgorod |
-| Интентные страницы | 48 | 6 интентов x 8 городов |
-| Модификаторы | 288 | 6 модификаторов x 6 интентов x 8 городов |
+| Городские хабы | 9 | novosibirsk, samara, kazan, moscow, ekaterinburg, sankt-peterburg, krasnoyarsk, nizhniy-novgorod, chelyabinsk |
+| Интентные страницы | 54 | 6 интентов x 9 городов |
+| Модификаторы | 324 | 6 модификаторов x 6 интентов x 9 городов |
 | Служебные страницы | 7 | Раздел `/info` |
 
-Коммерческих страниц в sitemap: `344`.
-Коммерческая сетка с главной: `345`.
-Всего в sitemap: `351`, без главной.
+Коммерческих страниц в sitemap: `387`.
+Коммерческая сетка с главной: `388`.
+Всего в sitemap: `394`, без главной.
 
 ## Текущие города
 
@@ -407,28 +450,29 @@
 | `sankt-peterburg` | Санкт-Петербург | 43 |
 | `krasnoyarsk` | Красноярск | 43 |
 | `nizhniy-novgorod` | Нижний Новгород | 43 |
+| `chelyabinsk` | Челябинск | 43 |
 
 ## Текущие интенты
 
 | Slug | Название | Статус в sitemap |
 | --- | --- | --- |
-| `zaim-pod-zalog-pts` | Займ под залог ПТС | 8 base + 48 modifiers |
-| `kredit-pod-zalog-avto` | Кредит под залог авто | 8 base + 48 modifiers |
-| `dengi-pod-zalog-mashiny` | Деньги под залог машины | 8 base + 48 modifiers |
-| `zaim-pod-zalog-avto` | Займ под залог авто | 8 base + 48 modifiers |
-| `dengi-pod-zalog-avto` | Деньги под залог авто | 8 base + 48 modifiers |
-| `zaim-pod-zalog-mashiny` | Займ под залог машины | 8 base + 48 modifiers |
+| `zaim-pod-zalog-pts` | Займ под залог ПТС | 9 base + 54 modifiers |
+| `kredit-pod-zalog-avto` | Кредит под залог авто | 9 base + 54 modifiers |
+| `dengi-pod-zalog-mashiny` | Деньги под залог машины | 9 base + 54 modifiers |
+| `zaim-pod-zalog-avto` | Займ под залог авто | 9 base + 54 modifiers |
+| `dengi-pod-zalog-avto` | Деньги под залог авто | 9 base + 54 modifiers |
+| `zaim-pod-zalog-mashiny` | Займ под залог машины | 9 base + 54 modifiers |
 
 ## Текущие модификаторы
 
 | Slug | Количество страниц |
 | --- | ---: |
-| `online` | 48 |
-| `na-kartu` | 48 |
-| `bez-spravok` | 48 |
-| `bez-podtverzhdeniya-dohoda` | 48 |
-| `s-plohoi-kreditnoi-istoriei` | 48 |
-| `dlya-biznesa` | 48 |
+| `online` | 54 |
+| `na-kartu` | 54 |
+| `bez-spravok` | 54 |
+| `bez-podtverzhdeniya-dohoda` | 54 |
+| `s-plohoi-kreditnoi-istoriei` | 54 |
+| `dlya-biznesa` | 54 |
 
 ## Служебные страницы
 
